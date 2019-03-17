@@ -33,8 +33,7 @@ cacheSolve <- function(x, ...) {
 }
 
 
-## Testing the function created
-
+## Testing the function created (makeCacheMatrix and CacheMatrix)
 set.seed(1)
 r = rnorm(100)
 mat1 = matrix(r, nrow=10, ncol=10)
